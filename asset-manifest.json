@@ -1,32 +1,41 @@
 {
   "files": {
     "main.css": "/portfolio2022/static/css/main.c508d141.css",
-    "main.js": "/portfolio2022/static/js/main.97cd9708.js",
+    "main.js": "/portfolio2022/static/js/main.1fe7b828.js",
     "static/js/787.2df8de29.chunk.js": "/portfolio2022/static/js/787.2df8de29.chunk.js",
+    "static/media/Gators.png": "/portfolio2022/static/media/Gators.2bc167c8fec190e6d01d.png",
+    "static/media/BelizeFS.png": "/portfolio2022/static/media/BelizeFS.87a41d6e1635db36de88.png",
     "static/media/color-sharp.png": "/portfolio2022/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/portfolio2022/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/banner-bg.png": "/portfolio2022/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/portfolio2022/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/GameSaver.png": "/portfolio2022/static/media/GameSaver.25068e5bae3bc7d09f9a.png",
     "static/media/CentraNo2-Bold.ttf": "/portfolio2022/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/portfolio2022/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/portfolio2022/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/logolightbulb.png": "/portfolio2022/static/media/logolightbulb.a18ebf872ac54d8536fb.png",
+    "static/media/anotherLogo.png": "/portfolio2022/static/media/anotherLogo.8122b964267a80a5af2f.png",
     "static/media/footer-bg.png": "/portfolio2022/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/noDotLightbulb.png": "/portfolio2022/static/media/noDotLightbulb.76e123d4258e3ad4a92f.png",
+    "static/media/contact-img.svg": "/portfolio2022/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/revicons.eot": "/portfolio2022/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/portfolio2022/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/portfolio2022/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/meter2.svg": "/portfolio2022/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
     "static/media/meter1.svg": "/portfolio2022/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
     "static/media/meter3.svg": "/portfolio2022/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
+    "static/media/logo.svg": "/portfolio2022/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
     "static/media/file-download-import-icon.svg": "/portfolio2022/static/media/file-download-import-icon.88b9fcfe9703cfe8a092b2d0d7751dae.svg",
     "static/media/nav-icon4.svg": "/portfolio2022/static/media/nav-icon4.3773aa781822cb0159a18b45de14147f.svg",
     "index.html": "/portfolio2022/index.html",
     "static/media/nav-icon1.svg": "/portfolio2022/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/portfolio2022/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.c508d141.css.map": "/portfolio2022/static/css/main.c508d141.css.map",
-    "main.97cd9708.js.map": "/portfolio2022/static/js/main.97cd9708.js.map",
+    "main.1fe7b828.js.map": "/portfolio2022/static/js/main.1fe7b828.js.map",
     "787.2df8de29.chunk.js.map": "/portfolio2022/static/js/787.2df8de29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c508d141.css",
-    "static/js/main.97cd9708.js"
+    "static/js/main.1fe7b828.js"
   ]
 }
