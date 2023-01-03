@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio2022/static/css/main.073c9b0a.css",
-    "main.js": "/portfolio2022/static/js/main.fef2efc5.js",
+    "main.css": "/portfolio2022/static/css/main.16645b4d.css",
+    "main.js": "/portfolio2022/static/js/main.bb8c5439.js",
     "static/js/787.2df8de29.chunk.js": "/portfolio2022/static/js/787.2df8de29.chunk.js",
-    "static/media/logo.svg": "/portfolio2022/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/banner-bg.png": "/portfolio2022/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/header-img.svg": "/portfolio2022/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/CentraNo2-Bold.ttf": "/portfolio2022/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/portfolio2022/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/portfolio2022/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/portfolio2022/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/noDotLightbulb.png": "/portfolio2022/static/media/noDotLightbulb.76e123d4258e3ad4a92f.png",
+    "static/media/file-download-import-icon.svg": "/portfolio2022/static/media/file-download-import-icon.88b9fcfe9703cfe8a092b2d0d7751dae.svg",
+    "static/media/nav-icon4.svg": "/portfolio2022/static/media/nav-icon4.3773aa781822cb0159a18b45de14147f.svg",
     "index.html": "/portfolio2022/index.html",
-    "main.073c9b0a.css.map": "/portfolio2022/static/css/main.073c9b0a.css.map",
-    "main.fef2efc5.js.map": "/portfolio2022/static/js/main.fef2efc5.js.map",
+    "static/media/nav-icon1.svg": "/portfolio2022/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "main.16645b4d.css.map": "/portfolio2022/static/css/main.16645b4d.css.map",
+    "main.bb8c5439.js.map": "/portfolio2022/static/js/main.bb8c5439.js.map",
     "787.2df8de29.chunk.js.map": "/portfolio2022/static/js/787.2df8de29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.fef2efc5.js"
+    "static/css/main.16645b4d.css",
+    "static/js/main.bb8c5439.js"
   ]
 }
