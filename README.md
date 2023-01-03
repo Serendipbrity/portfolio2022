@@ -9,6 +9,8 @@ npm i react-on-screen
 npm i react-lorem-ipsum
 npm i react-multi-carousel
 npm i react-bootstrap-icons
+npm i cors
+npm i express
 npm i -D gh-pages
 
 ## Deployed Page
