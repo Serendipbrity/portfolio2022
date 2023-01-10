@@ -4,6 +4,7 @@
 npx create-react-app portfolio2022
 npm i
 npm i react-bootstrap bootstrap
+npm i react-icons
 npm i animate.css
 npm i react-on-screen
 npm i react-lorem-ipsum

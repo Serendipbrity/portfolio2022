@@ -3,16 +3,20 @@ const router = express.Router();
 const cors = require('cors');
 const nodemailer = require('nodemailer');
 
-
+const path = require('path');
 // server used to send emails
 const app = express();
 app.use(cors());
 app.use(express.json());
 app.use('/', router);
-// go to project route and run npm server to check if server is running by running this file
-app.listen(5000, () => console.log('Server Running'));
-console.log(process.env.EMAIL_USER);
-console.log(process.env.EMAIL_PASS);
+
+app.use(express.static(path.join(__dirname, 'build')));
+app.get('/', function (req, res) { res.sendFile(path.join(__dirname, 'build', 'index.html')); }); 
+// go to project root and run node server to check if server is running 
+app.listen(3000, () => console.log('Server Running'));
+
+
+
 
 // email address messages sent to 
 const contactEmail = nodemailer.createTransport({
@@ -48,7 +52,7 @@ router.post('/contact', (req, res) => {
         html: `<p>Name: ${name}</p>
                <p>Email:${email}</p>
                <p>Phone:${phone}</p>
-               <p>Message:${message}</p>`
+               <p>Message:${message}</p>`,
     };
 
     contactEmail.sendMail(mail, (error) => {
