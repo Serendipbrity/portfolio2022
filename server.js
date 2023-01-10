@@ -40,10 +40,10 @@ contactEmail.verify((error) => {
 // create post request with API url to send data
 router.post('/contact', (req, res) => {
     // what I will receive in the email
-    const name = req.body.firstName + req.body.lastName;
-    const email = req.body.email;
-    const message = req.body.message;
-    const phone = req.body.phone;
+    const name = req.body.firstName + " " + req.body.lastName;
+    const email = " " + req.body.email;
+    const message = " " + req.body.message;
+    const phone = " " + req.body.phone;
     const mail = {
         // how it will display to me in my email
         from: name,
