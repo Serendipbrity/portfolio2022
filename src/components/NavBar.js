@@ -59,9 +59,10 @@ export const NavBar = () => {
                             <a href='https://www.linkedin.com/in/thanksfrom3rittani/'><img src={linkdInIcon} alt="" /></a>
                             <a href='https://github.com/Serendipbrity'><img src={githubIcon} alt="" /></a>
                             <a href='#'><img src={downloadIcon} alt="" /></a>
-                            <button href='#connect' ><span >Let us Connect</span></button>
                         </div>
                     </span>
+                    <a className='navbar-text social-icon' href='#connect' id='navConnect' ><span >Let's Connect</span></a>
+                    {/* <Nav.Link href='#connect'>Lets Connect</Nav.Link> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>

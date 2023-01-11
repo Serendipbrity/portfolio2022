@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import Contact from "./Contact";
 // import { LoremIpsum } from "react-lorem-ipsum";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
@@ -95,7 +94,7 @@ export const Banner = () => {
                     Serendipity: the occurrence and development of events by chance in a happy or beneficial way.
                     "A fortunate stroke of serendip-brit-y" 
                   </p>
-                  <button href="#connect" >
+                  <button >
                     Let's Connect 
                     <ArrowRightCircle size={25}/>
                   </button>
