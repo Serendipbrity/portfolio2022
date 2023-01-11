@@ -36,9 +36,7 @@ export const Projects = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__bounce" : ''}>
                   <h2>Projects</h2>
-                  {/* <p> */}
-                  <LoremIpsum p={1} />
-                  {/* </p> */}
+                  <p>I enjoy creating projects that solve real world problems. I love finding ways to make life more efficient.</p>
                 </div>}
                 </TrackVisibility>
                 <Row>

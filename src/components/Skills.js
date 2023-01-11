@@ -37,7 +37,7 @@ export const Skills = () => {
         <Row>
           <Col>
             <div className="skill-bx">
-              <h2>Skills</h2>
+              <h2 id="skillHead">Skills</h2>
               {/* <p> */}
               {/* <LoremIpsum p={1} /> */}
               {/* </p> */}
@@ -45,16 +45,16 @@ export const Skills = () => {
                 <Nav
                   variant="pills"
                   className="nav-pills mb-5 justify-content-center align-items-center"
-                  id="pills-tab"
+                  id="skill-tabs"
                 >
                   <Nav.Item>
-                    <Nav.Link eventKey="first">Front End</Nav.Link>
+                    <Nav.Link className="skillTab" eventKey="first">Front End</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">Back End</Nav.Link>
+                    <Nav.Link className="skillTab" eventKey="second">Back End</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third">Other</Nav.Link>
+                    <Nav.Link className="skillTab" eventKey="third">Other</Nav.Link>
                   </Nav.Item>
                 </Nav>
 

@@ -1,0 +1,16 @@
+
+.project .nav.nav-pills .nav-link::before {
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%) !important;
+}
+
+.project .nav.nav-pills .nav-link.active {
+    border: 1px solid rgba(255, 255, 255, 1) !important;
+}
+
+.project .nav.nav-pills {
+    width: 72%;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: rgb(255 255 255 / 10%) !important;
+    overflow: hidden;
+  }
