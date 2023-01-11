@@ -365,9 +365,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 15px auto;
 }
 
+
 /* override bootstrap css as not to load blue on skill tabs */
-.skillTab{
+.skillTab:not(:focus){
   background: none !important;
+}
+
+.skillTab {
+  color: white !important;
 }
 
 /* override bootstrap css to load the color gradient on click */

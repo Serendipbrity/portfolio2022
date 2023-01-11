@@ -31,6 +31,7 @@ export const Skills = () => {
     },
   };
 
+    
   return (
     <section className="skill" id="skills">
       <Container>
@@ -48,7 +49,7 @@ export const Skills = () => {
                   id="skill-tabs"
                 >
                   <Nav.Item>
-                    <Nav.Link className="skillTab" eventKey="first">Front End</Nav.Link>
+                    <Nav.Link className="skillTab" eventKey="first" id='firstTab'>Front End</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link className="skillTab" eventKey="second">Back End</Nav.Link>
