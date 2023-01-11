@@ -94,17 +94,19 @@ export const Banner = () => {
                     Serendipity: the occurrence and development of events by chance in a happy or beneficial way.
                     "A fortunate stroke of serendip-brit-y" 
                   </p>
-                  <button >
-                    Let's Connect 
-                    <ArrowRightCircle size={25}/>
-                  </button>
-                </div>
+                  </div>
               }
-              </TrackVisibility>
+                </TrackVisibility>
+                <a href='#connect'>
+                  Let's Connect 
+                  <ArrowRightCircle size={25}/>
+                </a>
+             
           </Col>
           <Col xs={12} md={6} ls={5}>
             <img src={headerImg} alr="Header Img" id='headerImg'/>
           </Col>
+     
         </Row>
       </Container>
     </section>
