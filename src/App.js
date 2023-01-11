@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import './custom.css';
 import { NavBar } from './components/NavBar.js';
 import { Banner } from './components/Banner.js';
 import { Skills } from './components/Skills.js';

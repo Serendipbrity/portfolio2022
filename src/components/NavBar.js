@@ -58,9 +58,9 @@ export const NavBar = () => {
                         <div className='social-icon'>
                             <a href='https://www.linkedin.com/in/thanksfrom3rittani/'><img src={linkdInIcon} alt="" /></a>
                             <a href='https://github.com/Serendipbrity'><img src={githubIcon} alt="" /></a>
-                            <a href='#'><img src={downloadIcon} alt=""/></a>
+                            <a href='#'><img src={downloadIcon} alt="" /></a>
+                            <button href='#connect' ><span >Let us Connect</span></button>
                         </div>
-                        <button className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
                     </span>
           </Navbar.Collapse>
         </Container>
