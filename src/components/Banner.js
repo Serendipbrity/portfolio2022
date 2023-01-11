@@ -84,13 +84,15 @@ export const Banner = () => {
                   </h1>
                   {/* <p><LoremIpsum p={1} /></p> */}
                   <p>
-                    {" "}
+                    {/* {" "}
                     I'm a Full Stack Web Developer. My career goals are to work with,
                     learn and grow in a single company long term. I chose this field
                     because it is challenging and offers a potential for exponential
                     growth of knowledge and skill. I enjoy and take pride in
                     overcoming challenges. I get along well with others. I enjoy
-                    working in a team or solo.{" "}
+                    working in a team or solo.{" "} */}
+                    Serendipity: the occurrence and development of events by chance in a happy or beneficial way.
+                    "A fortunate stroke of serendip-brit-y" 
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let's Connect

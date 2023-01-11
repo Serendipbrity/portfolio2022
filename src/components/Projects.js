@@ -41,22 +41,7 @@ export const Projects = () => {
                   {/* </p> */}
                 </div>}
                 </TrackVisibility>
-            <Tab.Container id="projects-tabs" defaultActiveKey="first">
-              <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id='pills-tab'>
-                <Nav.Item>
-                  <Nav.Link eventKey="first">Front End</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="second">Back End</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="third">Other</Nav.Link>
-                </Nav.Item>
-              </Nav>
-         
-              <Tab.Content>
-                <Tab.Pane eventKey="first">
-                  <Row>
+                <Row>
                     {projects.map((project, index) => {
                         return (
                             <ProjectCard
@@ -67,15 +52,6 @@ export const Projects = () => {
                         })
                     }
                   </Row>
-                </Tab.Pane>
-                <Tab.Pane eventKey="second">
-                  <LoremIpsum />
-                </Tab.Pane>
-                <Tab.Pane eventKey="third">
-                  <LoremIpsum />
-                </Tab.Pane>
-              </Tab.Content>
-            </Tab.Container>
           </Col>
         </Row>
       </Container>
