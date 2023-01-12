@@ -63,7 +63,6 @@ export const NavBar = () => {
                         </div>
                     </span>
                     <a className='navbar-text social-icon' href='#connect' id='navConnect' ><span >Let's Connect</span></a>
-                    {/* <Nav.Link href='#connect'>Lets Connect</Nav.Link> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>
