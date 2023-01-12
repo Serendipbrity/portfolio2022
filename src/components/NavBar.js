@@ -6,7 +6,7 @@ import noDotLightbulb from '../assets/img/noDotLightbulb.png';
 import linkdInIcon from '../assets/img/nav-icon1.svg';
 import githubIcon from '../assets/img/nav-icon4.svg';
 import downloadIcon from '../assets/img/file-download-import-icon.svg';
-import {PDF} from './PDF';
+import pdf from '../assets/Resume2.pdf';
 // import me from "../assets/img/Me.jpeg"
 
 export const NavBar = () => {
@@ -57,9 +57,9 @@ export const NavBar = () => {
                     </Nav>
                     <span className='navbar-text'>
                         <div className='social-icon'>
-                            <a href='https://www.linkedin.com/in/thanksfrom3rittani/'><img src={linkdInIcon} alt="" /></a>
-                            <a href='https://github.com/Serendipbrity'><img src={githubIcon} alt="" /></a>
-                            <PDF/>
+                            <a href='https://www.linkedin.com/in/thanksfrom3rittani/'><img src={linkdInIcon} alt="linkdin" /></a>
+                            <a href='https://github.com/Serendipbrity'><img src={githubIcon} alt="github" /></a>
+                            <a href={pdf} download='Download Resume'><img src={downloadIcon} alt='resume'></img></a>
                         </div>
                     </span>
                     <a className='navbar-text social-icon' href='#connect' id='navConnect' ><span >Let's Connect</span></a>
