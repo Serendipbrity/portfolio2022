@@ -6,7 +6,7 @@ import noDotLightbulb from '../assets/img/noDotLightbulb.png';
 import linkdInIcon from '../assets/img/nav-icon1.svg';
 import githubIcon from '../assets/img/nav-icon4.svg';
 import downloadIcon from '../assets/img/file-download-import-icon.svg';
-import pdf from '../assets/Resume2.pdf';
+import pdf from '../assets/Resume.pdf';
 // import me from "../assets/img/Me.jpeg"
 
 export const NavBar = () => {

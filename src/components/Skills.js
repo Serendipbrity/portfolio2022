@@ -39,10 +39,7 @@ export const Skills = () => {
           <Col>
             <div className="skill-bx">
               <h2 id="skillHead">Skills</h2>
-              {/* <p> */}
-              {/* <LoremIpsum p={1} /> */}
-              {/* </p> */}
-              <Tab.Container id="projects-tabs" defaultActiveKey="first">
+              {/* <Tab.Container id="projects-tabs" defaultActiveKey="first">
                 <Nav
                   variant="pills"
                   className="nav-pills mb-5 justify-content-center align-items-center"
@@ -53,9 +50,6 @@ export const Skills = () => {
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link className="skillTab" eventKey="second">Back End</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link className="skillTab" eventKey="third">Other</Nav.Link>
                   </Nav.Item>
                 </Nav>
 
@@ -69,7 +63,7 @@ export const Skills = () => {
                             />
                              )
                         })
-                    } */}
+                    } */} 
                     <Carousel
                       responsive={responsive}
                       infinite={true}
@@ -81,128 +75,84 @@ export const Skills = () => {
                         <img src={meter1} alt="Image"></img>
                                                       <h5>HTML</h5>
                                                       </Col>
-                      {/* </Carousel.Item>
-                      <Carousel.Item className="item"> */}
                                                   <Col>
                         <img src={meter2} alt="Image"></img>
                                                       <h5>CSS</h5>
                                                   </Col>
                                                   <Col>
                         <img src={meter1} alt="Image"></img>
-                                                      <h5>Javascript</h5>
+                                                      <h5>Git</h5>
                                                       </Col>
-                                                  </Row>
-                                          </Carousel.Item>
-                                          <Carousel.Item className="item">
-                                              <Row>
-                                                  <Col>
-                        <img src={meter1} alt="Image"></img>
-                                                      <h5>React</h5>
-                                                      </Col>
-                      {/* </Carousel.Item>
-                      <Carousel.Item className="item"> */}
-                                                  <Col>
-                        <img src={meter2} alt="Image"></img>
-                                                      <h5>DOM</h5>
-                                                  </Col>
-                                                  <Col>
-                        <img src={meter1} alt="Image"></img>
-                                                      <h5>UX/UI Design</h5>
-                                                      </Col>
-                                                  </Row>
-                                          </Carousel.Item>
-                    </Carousel>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="second">
-                  <Carousel
-                      responsive={responsive}
-                      infinite={true}
-                      className="skill-slider"
-                    >
-                                          <Carousel.Item className="item">
-                                              <Row>
-                                                  <Col>
-                        <img src={meter1} alt="Image"></img>
-                                                      <h5>Express</h5>
-                                                      </Col>
-                      {/* </Carousel.Item>
-                      <Carousel.Item className="item"> */}
-                                                  <Col>
-                        <img src={meter2} alt="Image"></img>
-                                                      <h5>SQL</h5>
-                                                  </Col>
-                                                  <Col>
-                        <img src={meter1} alt="Image"></img>
-                                                      <h5>Javascript</h5>
-                                                      </Col>
-                                                  </Row>
-                                          </Carousel.Item>
-                                          <Carousel.Item className="item">
-                                              <Row>
                                                   <Col>
                         <img src={meter1} alt="Image"></img>
                                                       <h5>OOP</h5>
                                                       </Col>
-                      {/* </Carousel.Item>
-                      <Carousel.Item className="item"> */}
-                                                  <Col>
-                        <img src={meter2} alt="Image"></img>
-                                                      <h5>MVC</h5>
-                                                  </Col>
-                                                  <Col>
-                        <img src={meter1} alt="Image"></img>
-                                                      <h5>Node</h5>
-                                                      </Col>
-                                                  </Row>
-                      </Carousel.Item>
-                    </Carousel>
-                  </Tab.Pane>
-                  <Tab.Pane eventKey="third">
-                  <Carousel
-                      responsive={responsive}
-                      infinite={true}
-                      className="skill-slider"
-                    >
-                                          <Carousel.Item className="item">
-                                              <Row>
-                                                  <Col>
-                        <img src={meter1} alt="Image"></img>
-                                                      <h5>APIs</h5>
-                                                      </Col>
-                      {/* </Carousel.Item>
-                      <Carousel.Item className="item"> */}
-                                                  <Col>
-                        <img src={meter2} alt="Image"></img>
-                                                      <h5>Node</h5>
-                                                  </Col>
-                                                  <Col>
-                        <img src={meter1} alt="Image"></img>
-                                                      <h5>MongoDB</h5>
-                                                      </Col>
-                                                  </Row>
-                                          </Carousel.Item>
-                                          <Carousel.Item className="item">
+                       </Row>
+                </Carousel.Item>
+                <Carousel.Item className="item">
                                               <Row>
                                                   <Col>
                         <img src={meter1} alt="Image"></img>
                                                       <h5>Express</h5>
                                                       </Col>
-                      {/* </Carousel.Item>
-                      <Carousel.Item className="item"> */}
                                                   <Col>
                         <img src={meter2} alt="Image"></img>
-                                                      <h5>GraphQL</h5>
+                                                      <h5>Mongoose</h5>
                                                   </Col>
                                                   <Col>
                         <img src={meter1} alt="Image"></img>
-                                                      <h5>Git</h5>
+                                                      <h5>Bootstrap</h5>
                                                       </Col>
-                                                  </Row>
-                      </Carousel.Item>
+                                                  <Col>
+                        <img src={meter1} alt="Image"></img>
+                                                      <h5>React</h5>
+                                                      </Col>
+                       </Row>
+                </Carousel.Item>
+                <Carousel.Item className="item">
+                                              <Row>
+                                                  <Col>
+                        <img src={meter1} alt="Image"></img>
+                                                      <h5>MongoDB</h5>
+                                                      </Col>
+                                                  <Col>
+                        <img src={meter2} alt="Image"></img>
+                                                      <h5>Github</h5>
+                                                  </Col>
+                                                  <Col>
+                        <img src={meter1} alt="Image"></img>
+                                                      <h5>GraphQL</h5>
+                                                      </Col>
+                                                  <Col>
+                        <img src={meter1} alt="Image"></img>
+                                                      <h5 className="longWord">Javascript</h5>
+                                                      </Col>
+                       </Row>
+                </Carousel.Item>
+                <Carousel.Item className="item">
+                                              <Row>
+                                                  <Col>
+                        <img src={meter1} alt="Image"></img>
+                                                      <h5>MVC</h5>
+                                                      </Col>
+                                                  <Col>
+                        <img src={meter2} alt="Image"></img>
+                                                      <h5>APIs</h5>
+                                                  </Col>
+                                                  <Col>
+                        <img src={meter1} alt="Image"></img>
+                                                      <h5>Node</h5>
+                                                      </Col>
+                                                  <Col>
+                        <img src={meter1} alt="Image"></img>
+                                                      <h5>MVC</h5>
+                                                      </Col>
+                       </Row>
+                                          </Carousel.Item>
                     </Carousel>
-                  </Tab.Pane>
+                  {/* </Tab.Pane>
                 </Tab.Content>
-              </Tab.Container>
+              </Tab.Container> */}
             </div>
           </Col>
         </Row>

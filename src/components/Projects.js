@@ -15,18 +15,26 @@ export const Projects = () => {
       title: "Gators Newsletter",
       description: "Elementary School Website",
       imgUrl: projImg1,
+      projUrl: "https://serendipbrity.github.io/Gators-Newsletter/",
+      gRepo: "https://github.com/Serendipbrity/Gators-Newsletter"
     },
     {
       title: "Belize National Fire Service",
       description: "Organize Fire Station Info",
       imgUrl: projImg2,
+      projUrl: "https://belize-fire-dept.herokuapp.com/",
+      gRepo: "https://github.com/ppepin34/fire-dept",
     },
     {
       title: "Game Saver",
       description: "Organize Company Routes/Info",
       imgUrl: projImg3,
+      projUrl: "https://safe-river-91585.herokuapp.com/",
+      gRepo: "https://github.com/Serendipbrity/ChickenDinner",
     },
   ];
+
+  const title2 = projects[1].title;
   return (
     <section className="project" id="projects">
       <Container>
@@ -36,7 +44,7 @@ export const Projects = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__bounce" : ''}>
                   <h2>Projects</h2>
-                  <p>I enjoy creating projects that solve real world problems. I love finding ways to make life more efficient.</p>
+                  <p>I enjoy creating projects that solve real world problems. I love finding ways to make life, in general, more efficient.</p>
                 </div>}
                 </TrackVisibility>
                 <Row>
