@@ -246,6 +246,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+/* #logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+} */
+
 .logo {
   height: 100%;
   width: 100%;
@@ -304,13 +310,35 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner a:hover svg {
   margin-left: 25px;
 }
-.banner img {
+.banner #headerImg {
   animation: updown 3s linear infinite;
 }
 
 #headerImg {
   margin-bottom: blur(3px);
+  display: inline-block;
 }
+
+.myPic {
+  display: inline-block;
+  /* keep picture under "Welcome" at any screen size */
+  display: flex;
+  /* round edges */
+  border-radius: 4px;
+  max-width: 50%;
+  max-height: 50%;
+
+}
+
+.intro {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* playing with changing alignment with screen sizes */
+/* .picConnect {
+  float: right;
+} */
 
 @keyframes updown {
     0% {

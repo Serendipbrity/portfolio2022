@@ -6,13 +6,14 @@ import headerImg from "../assets/img/header-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { isVisible } from "@testing-library/user-event/dist/utils";
+import Me from "../assets/img/Me.jpeg";
 
 export const Banner = () => {
   // which word is currently displayed on screen, start on first word
   const [loopNum, setLoopNum] = useState(0);
   // is the word being typed or being deleted, start false because you start by typing the word
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Software Engineer", "Web Developer", "Cat Mom"];
+  const toRotate = ["Web Developer", "Web Developer"];
   // portion of word being displayed
   const [text, setText] = useState("");
   //  time passed between letters typed
@@ -66,15 +67,17 @@ export const Banner = () => {
       setIndex((prevIndex) => prevIndex + 1);
     }
   };
+
   return (
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={6} xl={7} className='intro'>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ''}>
                   <span className="tagline">Welcome to my Portfolio</span>
+                 
                   <h1>
                     {`Hi I'm Brittani `}
                     <br></br>
@@ -82,6 +85,7 @@ export const Banner = () => {
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
+
                   {/* <p><LoremIpsum p={1} /></p> */}
                   <p>
                     {/* {" "}
@@ -94,16 +98,19 @@ export const Banner = () => {
                     Serendipity: the occurrence and development of events by chance in a happy or beneficial way.
                     "A fortunate stroke of serendip-brit-y" 
                   </p>
+                  
                   </div>
               }
-                </TrackVisibility>
+            </TrackVisibility>
+            <div className="intro picConnect">
+            <img src={Me} className='myPic' scrolling="no"></img> 
                 <a href='#connect'>
                   Let's Connect 
                   <ArrowRightCircle size={25}/>
                 </a>
-             
+                </div>
           </Col>
-          <Col xs={12} md={6} ls={5}>
+          <Col xs={12} md={6} ls={5} className='intro'>
             <img src={headerImg} alr="Header Img" id='headerImg'/>
           </Col>
      
