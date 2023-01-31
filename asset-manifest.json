@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio2022/static/css/main.4caa22fa.css",
-    "main.js": "/portfolio2022/static/js/main.8af48794.js",
+    "main.css": "/portfolio2022/static/css/main.c02375a1.css",
+    "main.js": "/portfolio2022/static/js/main.d7e4e9de.js",
     "static/js/787.2df8de29.chunk.js": "/portfolio2022/static/js/787.2df8de29.chunk.js",
     "static/media/Gators.png": "/portfolio2022/static/media/Gators.2bc167c8fec190e6d01d.png",
     "static/media/BelizeFS.png": "/portfolio2022/static/media/BelizeFS.87a41d6e1635db36de88.png",
     "static/media/color-sharp.png": "/portfolio2022/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/portfolio2022/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/Me.jpeg": "/portfolio2022/static/media/Me.02153956fe03eafb01f9.jpeg",
     "static/media/banner-bg.png": "/portfolio2022/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/portfolio2022/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/GameSaver.png": "/portfolio2022/static/media/GameSaver.25068e5bae3bc7d09f9a.png",
@@ -31,12 +32,12 @@
     "index.html": "/portfolio2022/index.html",
     "static/media/nav-icon1.svg": "/portfolio2022/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/portfolio2022/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.4caa22fa.css.map": "/portfolio2022/static/css/main.4caa22fa.css.map",
-    "main.8af48794.js.map": "/portfolio2022/static/js/main.8af48794.js.map",
+    "main.c02375a1.css.map": "/portfolio2022/static/css/main.c02375a1.css.map",
+    "main.d7e4e9de.js.map": "/portfolio2022/static/js/main.d7e4e9de.js.map",
     "787.2df8de29.chunk.js.map": "/portfolio2022/static/js/787.2df8de29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4caa22fa.css",
-    "static/js/main.8af48794.js"
+    "static/css/main.c02375a1.css",
+    "static/js/main.d7e4e9de.js"
   ]
 }
