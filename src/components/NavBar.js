@@ -42,7 +42,7 @@ export const NavBar = () => {
                 <Navbar.Brand href="#home">
                     <img src={
                         noDotLightbulb
-                    } alt="Logo" className='logo' id='logo'/>
+                    } alt="Logo" className='logo'/>
                     {/* <img src={me} alt="My Picture" id="me"/> */}
           </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">

@@ -14,7 +14,7 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col sm={6}>
-            <img src={noDotLightbulb} alt="Logo" />
+            <img src={noDotLightbulb} alt="Logo" className="logo"/>
           </Col>
           <Col sm={6} className="text-center text-sm-end">
             <div className="social-icon social-icons-footer-only">
