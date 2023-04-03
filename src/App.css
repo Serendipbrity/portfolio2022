@@ -258,6 +258,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 900;
   margin-bottom: 10px;
 }
+
+.linkDesc {
+  color: white;
+  display: none;
+}
+
+.linkDesc:hover {
+  color: white;
+  display: block;
+}
+
+
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;

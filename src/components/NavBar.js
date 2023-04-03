@@ -50,6 +50,7 @@ export const NavBar = () => {
                 </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
+                        <div></div>
                         {/* highlight which link is active, onClick to update state when links are pressed */}
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={()=>onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={()=>onUpdateActiveLink('skills')}>Skills</Nav.Link>
@@ -57,9 +58,10 @@ export const NavBar = () => {
                     </Nav>
                     <span className='navbar-text'>
                         <div className='social-icon'>
-                            <a href='https://www.linkedin.com/in/thanksfrom3rittani/'><img src={linkdInIcon} alt="linkdin" /></a>
-                            <a href='https://github.com/Serendipbrity'><img src={githubIcon} alt="github" /></a>
-                            <a href={pdf} download='Download Resume'><img src={downloadIcon} alt='resume'></img></a>
+                     
+                            <a className='hoverText' title='LinkdIn'data-hover='LinkdIn' href='https://www.linkedin.com/in/thanksfrom3rittani/'><img src={linkdInIcon}  alt="linkdin" /></a>
+                            <a title='Github' href='https://github.com/Serendipbrity'><img  src={githubIcon} alt="github" /></a>
+                            <a href={pdf} title='Download Resume PDF' download='Download Resume'><img src={downloadIcon} alt='resume'></img></a>
                         </div>
                     </span>
                     <a className='navbar-text social-icon' href='#connect' id='navConnect' ><span >Let's Connect</span></a>
