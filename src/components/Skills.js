@@ -145,7 +145,7 @@ export const Skills = () => {
                                                       </Col>
                                                   <Col>
                         <img src={meter1} alt="Image"></img>
-                                                      <h5>MVC</h5>
+                                                      <h5>Sass</h5>
                                                       </Col>
                        </Row>
                                           </Carousel.Item>

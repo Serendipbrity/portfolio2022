@@ -2,7 +2,8 @@ import { Col, Container, Row } from "react-bootstrap";
 
 export const ProjectCard = ({ title, description, imgUrl, projUrl, gRepo }) => {
   return (
-    <Col sm={6} md={4}>
+    <>
+    <Col sm={6} md={4} className='fullCol'>
       <div className="proj-imgbx">
         <a href={projUrl}>
           <img src={imgUrl} />
@@ -11,10 +12,12 @@ export const ProjectCard = ({ title, description, imgUrl, projUrl, gRepo }) => {
             <span>{description}</span>
           </div>
         </a>
-        <a id="gRepo" href={gRepo}>
+      
+        </div>
+        <a id="gRepo" href={gRepo} className='glow'>
           Github Repo
         </a>
-      </div>
     </Col>
+      </>
   );
 };

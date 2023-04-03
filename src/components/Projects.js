@@ -4,7 +4,6 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from '../assets/img/Gators.png';
 import projImg2 from '../assets/img/BelizeFS.png';
 import projImg3 from '../assets/img/GameSaver.png';
-import LoremIpsum from "react-lorem-ipsum";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -27,14 +26,14 @@ export const Projects = () => {
     },
     {
       title: "Game Saver",
-      description: "Organize Company Routes/Info",
+      description: "**Under Contruction**",
       imgUrl: projImg3,
       projUrl: "https://safe-river-91585.herokuapp.com/",
       gRepo: "https://github.com/Serendipbrity/ChickenDinner",
     },
   ];
 
-  const title2 = projects[1].title;
+  // const title2 = projects[1].title;
   return (
     <section className="project" id="projects">
       <Container>

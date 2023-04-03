@@ -515,7 +515,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 24px;
   margin-top: 24px;
 }
-.proj-imgbx::before {
+.proj-imgbx::before{
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   opacity: 0.85;
@@ -527,6 +527,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx:hover::before {
   height: 100%;
 }
+
 .proj-txtx {
   position: absolute;
   text-align: center;
@@ -564,20 +565,32 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 #gRepo {
+  display: none;
   color: white;
+  text-decoration: none; 
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-size: 25px;
+   font-weight: bolder;
+   color: white;
+   text-shadow: 0px 0px 30px #AA367C,0px 0px 30px #AA367C,0px 0px 30px white,0px 0px 10px #553300,0px 0px 10px #553300;
+}
+
+.fullCol:hover #gRepo{
+ display: block; 
+  /* color: red !important;  */
   /* keep link showing when screen size reduced */
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  display: flex;
-  margin: 1%;
+  /* position: relative; */
+
+  /* align-items: center; */
+
+  /* display: flex; */
+  /* margin: 10%; */
+
 }
 
-#gRepo:hover {
 
-  background-color: #000;
-}
 
 /************ Projects Css ************/
 .contact {
