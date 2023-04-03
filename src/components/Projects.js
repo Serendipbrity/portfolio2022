@@ -33,7 +33,6 @@ export const Projects = () => {
     },
   ];
 
-  // const title2 = projects[1].title;
   return (
     <section className="project" id="projects">
       <Container>
