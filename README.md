@@ -11,7 +11,7 @@ Welcome to my updated portfolio project! This is a showcase of my skills, achiev
 
 * [Usage](#usage)
 
-* [Contributing](#contributing)
+* [Screenshot](#screenshot)
 
 * [Tests](#tests)
 
