@@ -12,6 +12,7 @@ Welcome to my updated portfolio project! This is a showcase of my skills, achiev
 * [Usage](#usage)
 
 * [Screenshot](#screenshot)
+![Portfolio](https://user-images.githubusercontent.com/96275616/229570297-d7e10066-6dd9-4595-9c26-8edfdde7beaf.png)
 
 * [Tests](#tests)
 
