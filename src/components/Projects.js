@@ -18,7 +18,7 @@ export const Projects = () => {
       gRepo: "https://github.com/Serendipbrity/Gators-Newsletter"
     },
     {
-      title: "Belize National Fire Service",
+      title: "Belize Fire",
       description: "Organize Fire Station Info",
       imgUrl: projImg2,
       projUrl: "https://belize-fire-dept.herokuapp.com/",
@@ -26,7 +26,7 @@ export const Projects = () => {
     },
     {
       title: "Game Saver",
-      description: "**Under Contruction**",
+      description: "**Under Construction**",
       imgUrl: projImg3,
       projUrl: "https://safe-river-91585.herokuapp.com/",
       gRepo: "https://github.com/Serendipbrity/ChickenDinner",
