@@ -6,6 +6,7 @@ import projImg2 from '../assets/img/BelizeFS.png';
 import projImg3 from '../assets/img/GameSaver.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+// import galaxy from '../assets/img/galaxy_space.mov';
 
 
 export const Projects = () => {
@@ -60,6 +61,9 @@ export const Projects = () => {
         </Row>
       </Container>
       <img className="background-image-right" src={colorSharp2} />
+      {/* <video autoPlay loop muted >
+        <source src='../assets/img/galaxy_space.mov' type='video/mp4' />
+      </video> */}
     </section>
   );
 };

@@ -69,7 +69,10 @@ export const Banner = () => {
   };
 
   return (
-    <section className="banner" id="home">
+    <section className="banner vid" id="home">
+           {/* <video autoPlay loop muted >
+        <source src='../assets/img/galaxy_space.mov' type='video/mp4' />
+      </video> */}
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7} className='intro'>
