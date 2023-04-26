@@ -2,8 +2,9 @@ import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard.js";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from '../assets/img/Gators.png';
-import projImg2 from '../assets/img/BelizeFS.png';
+// import projImg2 from '../assets/img/BelizeFS.png';
 import projImg3 from '../assets/img/GameSaver.png';
+import projImg2 from '../assets/img/healing-handsAbout.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 // import galaxy from '../assets/img/galaxy_space.mov';
@@ -16,14 +17,16 @@ export const Projects = () => {
       description: "Elementary School Website",
       imgUrl: projImg1,
       projUrl: "https://serendipbrity.github.io/Gators-Newsletter/",
-      gRepo: "https://github.com/Serendipbrity/Gators-Newsletter"
+      gRepo: "https://github.com/Serendipbrity/Gators-Newsletter",
+      id: "proj1-img"
     },
     {
-      title: "Belize Fire",
-      description: "Organize Fire Station Info",
+      title: "Healing Hands",
+      description: "Massage Therapy Website",
       imgUrl: projImg2,
-      projUrl: "https://belize-fire-dept.herokuapp.com/",
-      gRepo: "https://github.com/ppepin34/fire-dept",
+      projUrl: "https://serendipbrity.github.io/healing-hands/",
+      gRepo: "https://github.com/Serendipbrity/healing-hands",
+      id: "proj2-img" 
     },
     {
       title: "Game Saver",
@@ -31,8 +34,11 @@ export const Projects = () => {
       imgUrl: projImg3,
       projUrl: "https://safe-river-91585.herokuapp.com/",
       gRepo: "https://github.com/Serendipbrity/ChickenDinner",
+      id: "proj3-img"
     },
   ];
+
+
 
   return (
     <section className="project" id="projects">

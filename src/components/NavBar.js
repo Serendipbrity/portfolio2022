@@ -8,6 +8,7 @@ import githubIcon from '../assets/img/nav-icon4.svg';
 import downloadIcon from '../assets/img/file-download-import-icon.svg';
 import pdf from '../assets/Resume.pdf';
 // import me from "../assets/img/Me.jpeg"
+// import barbie from '../assets/img/barbie.svg';
 
 export const NavBar = () => {
     // detect/keep track of which link we are on

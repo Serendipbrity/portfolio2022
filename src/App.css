@@ -450,6 +450,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 56%;
 }
+
+
+
 .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
@@ -551,6 +554,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+
+
+
 .background-image-right {
   top: 20%;
   position: absolute;
