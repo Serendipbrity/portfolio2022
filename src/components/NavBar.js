@@ -2,13 +2,12 @@ import { useEffect, useState } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-import noDotLightbulb from '../assets/img/noDotLightbulb.png';
+// import noDotLightbulb from '../assets/img/noDotLightbulb.png';
 import linkdInIcon from '../assets/img/nav-icon1.svg';
 import githubIcon from '../assets/img/nav-icon4.svg';
 import downloadIcon from '../assets/img/file-download-import-icon.svg';
 import pdf from '../assets/Resume.pdf';
-// import me from "../assets/img/Me.jpeg"
-// import barbie from '../assets/img/barbie.svg';
+import sIg from '../assets/img/sIg.svg';
 
 export const NavBar = () => {
     // detect/keep track of which link we are on
@@ -42,7 +41,7 @@ export const NavBar = () => {
         <Container>
                 <Navbar.Brand href="#home">
                     <img src={
-                        noDotLightbulb
+                        sIg
                     } alt="Logo" className='logo'/>
                     {/* <img src={me} alt="My Picture" id="me"/> */}
           </Navbar.Brand>
