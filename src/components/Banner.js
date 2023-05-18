@@ -6,7 +6,7 @@ import headerImg from "../assets/img/header-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { isVisible } from "@testing-library/user-event/dist/utils";
-import Me from "../assets/img/Me.jpg";
+import Me from "../assets/img/Me.jpeg";
 
 export const Banner = () => {
   // which word is currently displayed on screen, start on first word
