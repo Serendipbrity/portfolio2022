@@ -318,6 +318,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 #headerImg {
   margin-bottom: blur(3px);
   display: inline-block;
+  margin-top: 145px;
 }
 
 .myPic {
