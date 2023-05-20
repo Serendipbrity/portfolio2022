@@ -1,3 +1,10 @@
+/* serves as background */
+/* canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+} */
+
 /************ Custom Font ************/
 @font-face {
 	font-family: Centra;
@@ -427,7 +434,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  /* background-color: black; */
 }
 .project h2 {
 	font-size: 45px;
@@ -584,7 +591,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* background of mail */
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(100deg, rgb(106, 28, 186) 0%, rgb(185, 161, 225) 33.33%, rgb(81, 103, 234) 66.66%, rgb(220, 79, 201, .6) 100%);
+
   padding: 60px 0 60px 0;
 }
 /* mail guy */
@@ -729,6 +737,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  /* background: linear-gradient(90deg, rgb(106, 28, 186) 0%, rgb(185, 161, 225) 33.33%, rgb(81, 103, 234) 66.66%, rgb(220, 79, 201, .6) 100%); */
+
 }
 
 .footer p {

@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
+import Contact3D from "./Contact3D";
 // import 'anime.css';
 // import TrackVisibility from 'react-on-screen';
 
@@ -62,8 +63,9 @@ export const Contact = () => {
     <section className="contact" id="connect">
       <Container>
         <Row className="align-items-center">
-          <Col size={12} md={6}>
-            <img src={contactImg} alt="Contact Us" />
+          <Col size={12} md={6} style={{ width: "500px", height: "500px" }}>
+            {/* <img src={contactImg} alt="Contact Us" /> */}
+            <Contact3D />
           </Col>
           <Col size={12} md={6}>
             <h2 id='getInTouch'>Get In Touch</h2>
