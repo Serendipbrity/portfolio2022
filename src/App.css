@@ -591,7 +591,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* background of mail */
 .contact {
-  background: linear-gradient(100deg, rgb(106, 28, 186) 0%, rgb(185, 161, 225) 33.33%, rgb(81, 103, 234) 66.66%, rgb(220, 79, 201, .6) 100%);
+  /* add degrees back in for these colors to show */
+  background: linear-gradient(deg, rgb(106, 28, 186) 0%, rgb(40, 27, 40) 33.33%, rgb(81, 103, 234) 66.66%, rgb(220, 79, 201, .6) 100%);
 
   padding: 60px 0 60px 0;
 }
