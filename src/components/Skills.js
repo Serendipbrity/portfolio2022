@@ -66,7 +66,7 @@ export const Skills = () => {
                     } */} 
                     <Carousel
                       responsive={responsive}
-                      infinite={true}
+                      infinite="true"
                       className="skill-slider"
                     >
                                           <Carousel.Item className="item">

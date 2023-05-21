@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
-// import { LoremIpsum } from "react-lorem-ipsum";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/header-img.svg";
+// import headerImg from "../assets/img/header-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import { isVisible } from "@testing-library/user-event/dist/utils";
+// import { isVisible } from "@testing-library/user-event/dist/utils";
 import Me from "../assets/img/Me.jpeg";
+import Me3D from "./Me3D";
 
 export const Banner = () => {
   // which word is currently displayed on screen, start on first word
@@ -106,15 +106,16 @@ export const Banner = () => {
               }
             </TrackVisibility>
             <div className="intro picConnect">
-            <img src={Me} className='myPic' scrolling="no"></img> 
+            {/* <img src={Me} className='myPic' scrolling="no"></img>  */}
                 <a href='#connect'>
                   Let's Connect 
                   <ArrowRightCircle size={25}/>
                 </a>
                 </div>
           </Col>
-          <Col className='intro'>
-            <img src={headerImg} alr="Header Img" id='headerImg'/>
+          <Col >
+            <img src={Me} alr="Header Img" className="myPic"/>
+            {/* <Me3D/> */}
           </Col>
      
         </Row>
