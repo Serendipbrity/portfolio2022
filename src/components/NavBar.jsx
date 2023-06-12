@@ -37,7 +37,7 @@ const NavBar = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setIsOpen(!isOpen)} />
 
-        <Navbar.Collapse id="basic-navbar-nav" className={isOpen ? "expanded" : ""}>
+        <Navbar.Collapse id="basic-navbar-nav" className={isOpen ? "expanded" : ""} >
 
           <Nav className="me-auto">
             <Nav.Link
@@ -71,21 +71,21 @@ const NavBar = () => {
           <span className="navbar-text">
             <div className="social-icon">
               <a
-                className="hoverText"
+                className="hoverText social-icons"
                 title="LinkedIn"
                 data-hover="LinkedIn"
                 href="https://www.linkedin.com/in/thanksfrom3rittani/"
               >
                 <img src={linkdInIcon} alt="LinkedIn" />
               </a>
-              <a title="Github" href="https://github.com/Serendipbrity">
+              <a title="Github" href="https://github.com/Serendipbrity" className="social-icons">
                 <img src={githubIcon} alt="GitHub" />
               </a>
               <a
                 href={pdf}
                 title="Download Resume PDF"
                 download="Download Resume"
-              >
+                className="social-icons">
                 <img src={downloadIcon} alt="Resume"></img>
               </a>
               <button
