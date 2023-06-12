@@ -108,7 +108,7 @@ export const Banner = () => {
             <div className="intro picConnect">
             {/* <img src={Me} className='myPic' scrolling="no"></img>  */}
                 <a href='#connect'>
-                  Let's Connect 
+                  Contact Me 
                   <ArrowRightCircle size={25}/>
                 </a>
                 </div>
