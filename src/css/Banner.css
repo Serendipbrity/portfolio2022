@@ -1,12 +1,26 @@
 /************ Banner Css ************/
 .banner {
+    position: relative;
     margin-top: 0;
     padding: 260px 0 100px 0;
-    background-image: url('../assets/img/banner-bg.png');
+    overflow: hidden; /* Ensure the pseudo-element does not overflow */
+}
+/* only affects the background image and not its contents */
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/img/nasaCircle.jpg');
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-  }
+    transform: scaleY(-1); /* Flip the pseudo-element */
+    z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
+
   
   .banner .tagline {
     font-weight: 700;
@@ -27,7 +41,7 @@
     display: block;
   }
   .banner p {
-    color: #B8B8B8;
+    color: rgb(253, 253, 253);
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
