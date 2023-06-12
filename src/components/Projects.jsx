@@ -10,7 +10,7 @@ import TrackVisibility from 'react-on-screen';
 // import galaxy from '../assets/img/galaxy_space.mov';
 
 
-export const Projects = () => {
+const Projects = () => {
   const projects = [
     {
       title: "Gators Newsletter",
@@ -73,3 +73,5 @@ export const Projects = () => {
     </section>
   );
 };
+
+export default Projects;
