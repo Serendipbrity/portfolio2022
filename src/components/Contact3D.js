@@ -57,8 +57,17 @@ function Contact3D() {
     new OrbitControls(camera, renderer.domElement);
 
     function addStar() {
-      const geometry = new THREE.SphereGeometry(0.25, 24, 24);
-      const material = new THREE.MeshStandardMaterial({ color: 0xffffff });
+      const vertexColors = [
+        new THREE.Color(0xf5d7f6),
+        new THREE.Color(0xa96ed8),
+        new THREE.Color(0xe4b4ff),
+        new THREE.Color(0xffffff),
+      ];
+      const geometry = new THREE.OctahedronGeometry(0.25, 0);
+      const randomColorIndex = Math.floor(Math.random() * vertexColors.length);
+      const material = new THREE.MeshStandardMaterial({
+        color: vertexColors[randomColorIndex],
+      });
       const star = new THREE.Mesh(geometry, material);
       const [x, y, z] = Array(3).fill().map(() => THREE.MathUtils.randFloatSpread(100));
       star.position.set(x, y, z);
