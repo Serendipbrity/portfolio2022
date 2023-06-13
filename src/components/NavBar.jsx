@@ -29,7 +29,7 @@ const NavBar = () => {
   };
 
   return (
-    <Navbar expand="lg" className={`${scrolled || isOpen ? "scrolled" : ""}`} expanded={isOpen}>
+    <Navbar expand="lg" className={`${scrolled || isOpen ? "scrolled" : ""}`} expanded={isOpen} id="imgHam">
 
       <Container>
         <Navbar.Brand href="#home">

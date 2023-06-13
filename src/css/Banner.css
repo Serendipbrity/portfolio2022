@@ -5,6 +5,13 @@
     padding: 260px 0 100px 0;
     overflow: hidden; /* Ensure the pseudo-element does not overflow */
 }
+
+@media (max-width: 800px) {
+  .banner {
+    /* margin-top: 20%; */
+    padding-top: 30px;
+  }
+}
 /* only affects the background image and not its contents */
 .banner::before {
     content: '';

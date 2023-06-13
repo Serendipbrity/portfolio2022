@@ -64,6 +64,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media (max-width: 800px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -104,7 +110,7 @@ input:focus, textarea:focus, select:focus {
 @media (min-width:1700px) {
 	main .container {
 		max-width: 100%;
-		/* padding: 0 150px; */
+		padding: 0 150px;
 	}
 }
 

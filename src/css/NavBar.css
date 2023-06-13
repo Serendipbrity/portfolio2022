@@ -1,6 +1,6 @@
 
 nav.navbar {
-    /* padding: 18px 0; */
+    padding: 18px 0;
     /* always at the top */
     position: fixed;
     /* stretch across screen */
@@ -12,13 +12,15 @@ nav.navbar {
     /* animations */
     transition: 0.32s ease-in-out;
   }
-
-  /* @media (max-width: 767px) {
-    nav.navbar{
-      margin-bottom: 5%;
-    }
-  } */
   
+  @media (max-width: 800px) {
+    nav.navbar {
+      position: sticky;
+      /* padding-top: 20%;  */
+      /* padding: 60px 0 100px 0;  */
+      /* padding-bottom: 20%; */
+    }
+  }
   /* when scrolling turn background dark grey */
   nav.navbar.scrolled {
     padding: 0px 0;
