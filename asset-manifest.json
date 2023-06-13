@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio2022/static/css/main.8c3ae97d.css",
-    "main.js": "/portfolio2022/static/js/main.0fe55965.js",
+    "main.css": "/portfolio2022/static/css/main.5f69a398.css",
+    "main.js": "/portfolio2022/static/js/main.c297e76b.js",
     "static/js/787.2df8de29.chunk.js": "/portfolio2022/static/js/787.2df8de29.chunk.js",
     "static/media/nasaCircle.jpg": "/portfolio2022/static/media/nasaCircle.78985a4dc62387bebb82.jpg",
     "static/media/Gators.png": "/portfolio2022/static/media/Gators.2bc167c8fec190e6d01d.png",
@@ -26,12 +26,12 @@
     "index.html": "/portfolio2022/index.html",
     "static/media/nav-icon1.svg": "/portfolio2022/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/seren.svg": "/portfolio2022/static/media/seren.0de67cca737cdf7038cbbedcbb795767.svg",
-    "main.8c3ae97d.css.map": "/portfolio2022/static/css/main.8c3ae97d.css.map",
-    "main.0fe55965.js.map": "/portfolio2022/static/js/main.0fe55965.js.map",
+    "main.5f69a398.css.map": "/portfolio2022/static/css/main.5f69a398.css.map",
+    "main.c297e76b.js.map": "/portfolio2022/static/js/main.c297e76b.js.map",
     "787.2df8de29.chunk.js.map": "/portfolio2022/static/js/787.2df8de29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c3ae97d.css",
-    "static/js/main.0fe55965.js"
+    "static/css/main.5f69a398.css",
+    "static/js/main.c297e76b.js"
   ]
 }
