@@ -1,6 +1,4 @@
 import Carousel from "react-bootstrap/Carousel";
-import { ProjectCard } from "./ProjectCard.js";
-// import { Projects } from "./Projects";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/img/meter1.svg";
