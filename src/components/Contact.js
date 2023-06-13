@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+// import contactImg from "../assets/img/contact-img.svg";
 import Contact3D from "./Contact3D";
 // import 'anime.css';
 // import TrackVisibility from 'react-on-screen';
