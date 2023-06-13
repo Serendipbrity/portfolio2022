@@ -24,25 +24,10 @@ To install necessary dependencies, run the following command:
 
 npm i
 
-Here is a list of individualized installations:
-
-npx create-react-app portfolio2022
-npm i
-npm i react-bootstrap bootstrap
-npm i react-icons
-npm i animate.css
-npm i react-on-screen
-npm i react-lorem-ipsum
-npm i react-multi-carousel
-npm i react-bootstrap-icons
-npm i cors
-npm i express
-npm i -D gh-pages
-
 
   
 ## Screenshot
-![Portfolio](https://user-images.githubusercontent.com/96275616/229570297-d7e10066-6dd9-4595-9c26-8edfdde7beaf.png)
+
 
 
 ## Tests
