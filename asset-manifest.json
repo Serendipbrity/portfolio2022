@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2022/static/css/main.5f69a398.css",
-    "main.js": "/portfolio2022/static/js/main.f8a6ab0f.js",
+    "main.js": "/portfolio2022/static/js/main.4b17c31a.js",
     "static/js/787.2df8de29.chunk.js": "/portfolio2022/static/js/787.2df8de29.chunk.js",
     "static/media/nasaCircle.jpg": "/portfolio2022/static/media/nasaCircle.78985a4dc62387bebb82.jpg",
     "static/media/Gators.png": "/portfolio2022/static/media/Gators.2bc167c8fec190e6d01d.png",
@@ -14,8 +14,18 @@
     "static/media/CentraNo2-Medium.ttf": "/portfolio2022/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/portfolio2022/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/Resume.pdf": "/portfolio2022/static/media/Resume.f234526948a2eb883cfd.pdf",
+    "static/media/React.svg.png": "/portfolio2022/static/media/React.svg.1e5639fdfd7c944093d3.png",
+    "static/media/CSS3.svg.png": "/portfolio2022/static/media/CSS3.svg.443bc827ad57da012b4b.png",
+    "static/media/Sass.svg.png": "/portfolio2022/static/media/Sass.svg.eae2b96dc5f29556b225.png",
+    "static/media/Bootstrap.svg.png": "/portfolio2022/static/media/Bootstrap.svg.bea6f1e20c180b4b973e.png",
+    "static/media/GraphQL.svg.png": "/portfolio2022/static/media/GraphQL.svg.85923a97691e862396c8.png",
+    "static/media/Github.svg.png": "/portfolio2022/static/media/Github.svg.a6aeb625cbcc51455636.png",
+    "static/media/Node.js.svg.png": "/portfolio2022/static/media/Node.js.svg.c6649cb118c1ede849ad.png",
+    "static/media/MongoDB.svg.png": "/portfolio2022/static/media/MongoDB.svg.eaf7320e7007b841ef8c.png",
+    "static/media/HTML5_Badge.svg.png": "/portfolio2022/static/media/HTML5_Badge.svg.52c80d542be663ceb3e0.png",
     "static/media/revicons.eot": "/portfolio2022/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/portfolio2022/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/Javascript.svg.png": "/portfolio2022/static/media/Javascript.svg.81ebc9587f5d628a50b4.png",
     "static/media/revicons.woff": "/portfolio2022/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/meter2.svg": "/portfolio2022/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
     "static/media/meter1.svg": "/portfolio2022/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
@@ -27,11 +37,11 @@
     "static/media/nav-icon1.svg": "/portfolio2022/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/seren.svg": "/portfolio2022/static/media/seren.0de67cca737cdf7038cbbedcbb795767.svg",
     "main.5f69a398.css.map": "/portfolio2022/static/css/main.5f69a398.css.map",
-    "main.f8a6ab0f.js.map": "/portfolio2022/static/js/main.f8a6ab0f.js.map",
+    "main.4b17c31a.js.map": "/portfolio2022/static/js/main.4b17c31a.js.map",
     "787.2df8de29.chunk.js.map": "/portfolio2022/static/js/787.2df8de29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f69a398.css",
-    "static/js/main.f8a6ab0f.js"
+    "static/js/main.4b17c31a.js"
   ]
 }
