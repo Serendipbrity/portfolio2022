@@ -6,7 +6,21 @@ import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 import Projects from "./Projects";
-// import colorSharp2 from '../assets/img/color-sharp2.png';
+import HTML from "../assets/img/HTML5_Badge.svg.png";
+import CSS from "../assets/img/CSS3.svg.png";
+import Git from "../assets/img/Git.svg.png";
+import OOP from "../assets/img/OOP.svg.png";
+import Express from "../assets/img/Express.svg.png";
+import Node from "../assets/img/Node.js.svg.png";
+import Github from "../assets/img/Github.svg.png";
+import Javascript from "../assets/img/Javascript.svg.png";
+import React from "../assets/img/React.svg.png";
+import MongoDB from "../assets/img/MongoDB.svg.png";
+import Bootstrap from "../assets/img/Bootstrap.svg.png";
+import Sass from "../assets/img/Sass.svg.png";
+import API from "../assets/img/API.svg.png";
+import Mongoose from "../assets/img/Mongoose.svg.png";
+import GraphQL from "../assets/img/GraphQL.svg.png";
 
 export const Skills = () => {
   const responsive = {
@@ -70,19 +84,19 @@ export const Skills = () => {
                                           <Carousel.Item className="item">
                                               <Row>
                                                   <Col>
-                        <img src={meter1} alt="Image"></img>
+                        <img src={HTML} alt="Image"></img>
                                                       <h5>HTML</h5>
                                                       </Col>
                                                   <Col>
-                        <img src={meter2} alt="Image"></img>
+                        <img src={CSS} alt="Image"></img>
                                                       <h5>CSS</h5>
                                                   </Col>
                                                   <Col>
-                        <img src={meter1} alt="Image"></img>
+                        <img src={Git} alt="Image"></img>
                                                       <h5>Git</h5>
                                                       </Col>
                                                   <Col>
-                        <img src={meter1} alt="Image"></img>
+                        <img src={OOP} alt="Image"></img>
                                                       <h5>OOP</h5>
                                                       </Col>
                        </Row>
@@ -90,19 +104,19 @@ export const Skills = () => {
                 <Carousel.Item className="item">
                                               <Row>
                                                   <Col>
-                        <img src={meter1} alt="Image"></img>
+                        <img src={Express} alt="Image"></img>
                                                       <h5>Express</h5>
                                                       </Col>
                                                   <Col>
-                        <img src={meter2} alt="Image"></img>
+                        <img src={Mongoose} alt="Image"></img>
                                                       <h5>Mongoose</h5>
                                                   </Col>
                                                   <Col>
-                        <img src={meter1} alt="Image"></img>
+                        <img src={Bootstrap} alt="Image"></img>
                                                       <h5>Bootstrap</h5>
                                                       </Col>
                                                   <Col>
-                        <img src={meter1} alt="Image"></img>
+                        <img src={React} alt="Image"></img>
                                                       <h5>React</h5>
                                                       </Col>
                        </Row>
@@ -110,19 +124,19 @@ export const Skills = () => {
                 <Carousel.Item className="item">
                                               <Row>
                                                   <Col>
-                        <img src={meter1} alt="Image"></img>
+                        <img src={MongoDB} alt="Image"></img>
                                                       <h5>MongoDB</h5>
                                                       </Col>
                                                   <Col>
-                        <img src={meter2} alt="Image"></img>
+                        <img src={Github} alt="Image"></img>
                                                       <h5>Github</h5>
                                                   </Col>
                                                   <Col>
-                        <img src={meter1} alt="Image"></img>
+                        <img src={GraphQL} alt="Image"></img>
                                                       <h5>GraphQL</h5>
                                                       </Col>
                                                   <Col>
-                        <img src={meter1} alt="Image"></img>
+                        <img src={Javascript} alt="Image"></img>
                                                       <h5 className="longWord">Javascript</h5>
                                                       </Col>
                        </Row>
@@ -134,15 +148,15 @@ export const Skills = () => {
                                                       <h5>MVC</h5>
                                                       </Col>
                                                   <Col>
-                        <img src={meter2} alt="Image"></img>
+                        <img src={API} alt="Image"></img>
                                                       <h5>APIs</h5>
                                                   </Col>
                                                   <Col>
-                        <img src={meter1} alt="Image"></img>
+                        <img src={Node} alt="Image"></img>
                                                       <h5>Node</h5>
                                                       </Col>
                                                   <Col>
-                        <img src={meter1} alt="Image"></img>
+                        <img src={Sass} alt="Image"></img>
                                                       <h5>Sass</h5>
                                                       </Col>
                        </Row>
