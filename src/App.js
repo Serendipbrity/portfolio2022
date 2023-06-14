@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 import NavBar from './components/NavBar';
 import { Banner } from './components/Banner.js';
-import { Skills } from './components/Skills.js';
+import { Skills } from './components/Skills.jsx';
 // import { Projects } from './components/Projects.js';
 import { Contact } from './components/Contact.js';
 import Footer from './components/Footer';
