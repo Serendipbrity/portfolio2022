@@ -27,7 +27,7 @@ npm i
 
   
 ## Screenshot
-![Screenshot](serendipbrity.screenshot.png)
+![Screenshot](/src/assets/img/serendipbrity.screenshot.png)
 
 
 ## Tests
