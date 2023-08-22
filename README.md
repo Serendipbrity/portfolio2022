@@ -27,7 +27,7 @@ npm i
 
   
 ## Screenshot
-
+![Screenshot](serendipbrity.screenshot.png)
 
 
 ## Tests

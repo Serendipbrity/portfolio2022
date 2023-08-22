@@ -1,6 +1,7 @@
 import { Container, Col, Row } from "react-bootstrap";
 import linkdInIcon from "../assets/img/nav-icon1.svg";
 import downloadIcon from "../assets/img/file-download-import-icon.svg";
+import igIcon from "../assets/img/igIcon.svg";
 import githubIcon from "../assets/img/nav-icon4.svg";
 import seren from "../assets/img/seren.svg";
 
@@ -22,6 +23,12 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/thanksfrom3rittani/"
               >
                 <img src={linkdInIcon} />
+              </a>
+              <a
+                title="Instagram"
+                href="https://www.instagram.com/4serendipbrity7/"
+              >
+                <img src={igIcon} />
               </a>
               <a href="" title="Download Resume PDF">
                 <img src={downloadIcon} />

@@ -3,9 +3,10 @@ import { ProjectCard } from "./ProjectCard.js";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from '../assets/img/Gators.png';
 // import projImg2 from '../assets/img/BelizeFS.png';
-import projImg3 from '../assets/img/GameSaver.png';
+import projImg3 from '../assets/img/MindFlip.png';
 import projImg2 from '../assets/img/healing-handsAbout.png';
 import 'animate.css';
+import THREE from '../assets/img/Three.png';
 import TrackVisibility from 'react-on-screen';
 // import galaxy from '../assets/img/galaxy_space.mov';
 
@@ -29,12 +30,20 @@ const Projects = () => {
       id: "proj2-img" 
     },
     {
-      title: "Game Saver",
-      description: "**Under Construction**",
+      title: "MindFlip",
+      description: "Flash Card Game",
       imgUrl: projImg3,
-      projUrl: "https://safe-river-91585.herokuapp.com/",
-      gRepo: "https://github.com/Serendipbrity/ChickenDinner",
+      projUrl: "https://mindflip-88d53dabf742.herokuapp.com/",
+      gRepo: "https://github.com/Serendipbrity/MindFlip",
       id: "proj3-img"
+    },
+    {
+      title: "Three",
+      description: "Three.js Demo",
+      imgUrl: THREE,
+      projUrl: "https://safe-river-91585.herokuapp.com/",
+      gRepo: "https://serendipbrity.github.io/three/",
+      id: "proj4-img"
     },
   ];
 

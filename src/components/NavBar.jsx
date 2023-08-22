@@ -5,6 +5,7 @@ import githubIcon from "../assets/img/nav-icon4.svg";
 import downloadIcon from "../assets/img/file-download-import-icon.svg";
 import pdf from "../assets/Resume.pdf";
 import sIg from "../assets/img/sIg.svg";
+import igIcon from "../assets/img/igIcon.svg";
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -29,16 +30,29 @@ const NavBar = () => {
   };
 
   return (
-    <Navbar expand="lg" className={`${scrolled || isOpen ? "scrolled" : ""}`} expanded={isOpen} id="imgHam">
-
+    <Navbar
+      expand="lg"
+      className={`${scrolled || isOpen ? "scrolled" : ""}`}
+      expanded={isOpen}
+      id="imgHam"
+    >
       <Container>
+        {/* ------- Lightbulb Brand Icon-------- */}
         <Navbar.Brand href="#home">
           <img src={sIg} alt="logo" id="logo" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setIsOpen(!isOpen)} />
-
-        <Navbar.Collapse id="basic-navbar-nav" className={isOpen ? "expanded" : ""} >
-
+        {/* ------------------------------------ */}
+        {/* ---------- Show hide hamburger menu ------------------ */}
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          onClick={() => setIsOpen(!isOpen)}
+        />
+        <Navbar.Collapse
+          id="basic-navbar-nav"
+          className={isOpen ? "expanded" : ""}
+        >
+          {/* --------------------------- */}
+          {/* ---------- Nav links for page content ------------- */}
           <Nav className="me-auto">
             <Nav.Link
               href="#home"
@@ -68,8 +82,12 @@ const NavBar = () => {
               Projects
             </Nav.Link>
           </Nav>
+          {/* ------------------------------------------------ */}
+         
           <span className="navbar-text">
+            {/* -------------- Links for icons ------------------*/}
             <div className="social-icon">
+              {/* linkdin */}
               <a
                 className="hoverText social-icons"
                 title="LinkedIn"
@@ -78,16 +96,33 @@ const NavBar = () => {
               >
                 <img src={linkdInIcon} alt="LinkedIn" />
               </a>
-              <a title="Github" href="https://github.com/Serendipbrity" className="social-icons">
+              {/* github */}
+              <a
+                title="Github"
+                href="https://github.com/Serendipbrity"
+                className="social-icons"
+              >
                 <img src={githubIcon} alt="GitHub" />
               </a>
+                  {/* Instagram */}
+                  <a
+                title="Instagram"
+                href="https://www.instagram.com/4serendipbrity7/"
+                className="social-icons"
+              >
+                <img src={igIcon} alt="Instagram"></img>
+              </a>
+              {/* resume */}
               <a
                 href={pdf}
                 title="Download Resume PDF"
                 download="Download Resume"
-                className="social-icons">
+                className="social-icons"
+              >
                 <img src={downloadIcon} alt="Resume"></img>
               </a>
+              {/* --------------------------------------------- */}
+              {/* Contact Me Button takes you to contact section */}
               <button
                 className="navbar-text social-icon"
                 onClick={() => console.log("connect")}

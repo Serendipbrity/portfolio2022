@@ -7,7 +7,11 @@ const path = require('path');
 // server used to send emails
 const app = express();
 app.use(cors());
+app.options('*', cors());
 app.use(express.json());
+app.use(express.json({ limit: '50mb', extended: true, parameterLimit: 50000 }));
+app.use(express.urlencoded({ limit: '50mb', extended: true, parameterLimit: 50000 }));
+
 app.use('/', router);
 
 app.use(express.static(path.join(__dirname, 'build')));

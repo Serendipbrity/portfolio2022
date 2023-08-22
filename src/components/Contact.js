@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-// import contactImg from "../assets/img/contact-img.svg";
 import Contact3D from "./Contact3D";
 // import 'anime.css';
 // import TrackVisibility from 'react-on-screen';
@@ -38,9 +37,6 @@ export const Contact = () => {
     setButtonText("Sending...");
     let response = await fetch("http://localhost:3000/contact", {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
       body: JSON.stringify(formDetails),
     });
     // change button back to send
@@ -76,7 +72,8 @@ export const Contact = () => {
                   <input
                     type="text"
                     value={formDetails.firstName}
-                    placeholder="First Name"
+                    // placeholder="First Name"
+                    placeholder="/////////////////////////"
                     onChange={(e) => onFormUpdate("firstName", e.target.value)}
                   ></input>
                 </Col>
@@ -84,7 +81,8 @@ export const Contact = () => {
                   <input
                     type="text"
                     value={formDetails.lastName}
-                    placeholder="Last Name"
+                    // placeholder="Last Name"
+                    placeholder="/////////////////////////"
                     onChange={(e) => onFormUpdate("lastName", e.target.value)}
                   ></input>
                 </Col>
@@ -92,7 +90,8 @@ export const Contact = () => {
                   <input
                     type="email"
                     value={formDetails.email}
-                    placeholder="Email Address"
+                    // placeholder="Email Address"
+                    placeholder="/////////////////////////"
                     onChange={(e) => onFormUpdate("email", e.target.value)}
                   ></input>
                 </Col>
@@ -100,7 +99,8 @@ export const Contact = () => {
                   <input
                     type="tel"
                     value={formDetails.phone}
-                    placeholder="Phone Number"
+                    // placeholder="Phone Number"
+                    placeholder="/////////////////////////"
                     onChange={(e) => onFormUpdate("phone", e.target.value)}
                   ></input>
                 </Col>
@@ -108,7 +108,8 @@ export const Contact = () => {
                   <textarea
                     rows="6"
                     value={formDetails.message}
-                    placeholder="Message"
+                    // placeholder="Message"
+                    placeholder="!!!!! DOWN FOR MAINTENANCE !!!!! Please email: bcourt95@gmail.com"
                     onChange={(e) => onFormUpdate("message", e.target.value)}
                   ></textarea>
 

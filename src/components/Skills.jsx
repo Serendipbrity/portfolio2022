@@ -21,6 +21,7 @@ import Sass from "../assets/img/Sass.svg.png";
 import API from "../assets/img/API.svg.png";
 import Mongoose from "../assets/img/Mongoose.svg.png";
 import GraphQL from "../assets/img/GraphQL.svg.png";
+import Contact3D from "./Contact3D";
 
 const Skills = () => {
   const responsive = {
@@ -170,6 +171,7 @@ const Skills = () => {
         </Row>
       </Container>
       <Projects />
+      <Contact3D />
       {/* <img className="background-image-left" src={colorSharp} /> */}
       {/* <img className="background-image-right" src={colorSharp2}/> */}
     </section>

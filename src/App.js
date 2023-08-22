@@ -5,6 +5,7 @@ import { Banner } from './components/Banner.js';
 import Skills  from './components/Skills.jsx';
 // import { Projects } from './components/Projects.js';
 import { Contact } from './components/Contact.js';
+import Contact3D from './components/Contact3D';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,6 +18,7 @@ function App() {
       <Banner />
       <Skills />
       {/* <Projects /> */}
+      {/* <Contact3D /> */}
       <Contact />
       <Footer />
     </div>
