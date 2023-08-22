@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio2022/static/css/main.5f69a398.css",
-    "main.js": "/portfolio2022/static/js/main.4b17c31a.js",
+    "main.css": "/portfolio2022/static/css/main.666d4aae.css",
+    "main.js": "/portfolio2022/static/js/main.29ef7395.js",
     "static/js/787.2df8de29.chunk.js": "/portfolio2022/static/js/787.2df8de29.chunk.js",
     "static/media/nasaCircle.jpg": "/portfolio2022/static/media/nasaCircle.78985a4dc62387bebb82.jpg",
-    "static/media/Gators.png": "/portfolio2022/static/media/Gators.2bc167c8fec190e6d01d.png",
-    "static/media/healing-handsAbout.png": "/portfolio2022/static/media/healing-handsAbout.3fdce8f33d2d4a965304.png",
+    "static/media/healing-handsAbout.png": "/portfolio2022/static/media/healing-handsAbout.458d12f61ce58ed87b92.png",
+    "static/media/Gators.png": "/portfolio2022/static/media/Gators.3a4efcebe41f6be7ccf2.png",
     "static/media/color-sharp.png": "/portfolio2022/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/portfolio2022/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/MindFlip.png": "/portfolio2022/static/media/MindFlip.b33355d9f82a3ee36abc.png",
+    "static/media/Three.png": "/portfolio2022/static/media/Three.e36a2abbe80d3c2e888b.png",
     "static/media/Me.jpeg": "/portfolio2022/static/media/Me.02153956fe03eafb01f9.jpeg",
-    "static/media/GameSaver.png": "/portfolio2022/static/media/GameSaver.25068e5bae3bc7d09f9a.png",
     "static/media/CentraNo2-Bold.ttf": "/portfolio2022/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/portfolio2022/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/portfolio2022/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/Resume.pdf": "/portfolio2022/static/media/Resume.f234526948a2eb883cfd.pdf",
+    "static/media/Resume.pdf": "/portfolio2022/static/media/Resume.20c400c31980bbed9a0b.pdf",
     "static/media/React.svg.png": "/portfolio2022/static/media/React.svg.1e5639fdfd7c944093d3.png",
     "static/media/CSS3.svg.png": "/portfolio2022/static/media/CSS3.svg.443bc827ad57da012b4b.png",
     "static/media/Sass.svg.png": "/portfolio2022/static/media/Sass.svg.eae2b96dc5f29556b225.png",
@@ -32,16 +33,17 @@
     "static/media/meter3.svg": "/portfolio2022/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "static/media/sIg.svg": "/portfolio2022/static/media/sIg.02c3a17cac9abd8d4c305cd6c1864aea.svg",
     "static/media/file-download-import-icon.svg": "/portfolio2022/static/media/file-download-import-icon.88b9fcfe9703cfe8a092b2d0d7751dae.svg",
+    "static/media/igIcon.svg": "/portfolio2022/static/media/igIcon.5353d83d3952ec0b1e780a770a5d574c.svg",
     "static/media/nav-icon4.svg": "/portfolio2022/static/media/nav-icon4.3773aa781822cb0159a18b45de14147f.svg",
     "index.html": "/portfolio2022/index.html",
     "static/media/nav-icon1.svg": "/portfolio2022/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/seren.svg": "/portfolio2022/static/media/seren.0de67cca737cdf7038cbbedcbb795767.svg",
-    "main.5f69a398.css.map": "/portfolio2022/static/css/main.5f69a398.css.map",
-    "main.4b17c31a.js.map": "/portfolio2022/static/js/main.4b17c31a.js.map",
+    "main.666d4aae.css.map": "/portfolio2022/static/css/main.666d4aae.css.map",
+    "main.29ef7395.js.map": "/portfolio2022/static/js/main.29ef7395.js.map",
     "787.2df8de29.chunk.js.map": "/portfolio2022/static/js/787.2df8de29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f69a398.css",
-    "static/js/main.4b17c31a.js"
+    "static/css/main.666d4aae.css",
+    "static/js/main.29ef7395.js"
   ]
 }
