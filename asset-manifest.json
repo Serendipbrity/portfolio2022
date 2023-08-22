@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2022/static/css/main.666d4aae.css",
-    "main.js": "/portfolio2022/static/js/main.29ef7395.js",
+    "main.js": "/portfolio2022/static/js/main.0b30cbbb.js",
     "static/js/787.2df8de29.chunk.js": "/portfolio2022/static/js/787.2df8de29.chunk.js",
     "static/media/nasaCircle.jpg": "/portfolio2022/static/media/nasaCircle.78985a4dc62387bebb82.jpg",
     "static/media/healing-handsAbout.png": "/portfolio2022/static/media/healing-handsAbout.458d12f61ce58ed87b92.png",
@@ -39,11 +39,11 @@
     "static/media/nav-icon1.svg": "/portfolio2022/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/seren.svg": "/portfolio2022/static/media/seren.0de67cca737cdf7038cbbedcbb795767.svg",
     "main.666d4aae.css.map": "/portfolio2022/static/css/main.666d4aae.css.map",
-    "main.29ef7395.js.map": "/portfolio2022/static/js/main.29ef7395.js.map",
+    "main.0b30cbbb.js.map": "/portfolio2022/static/js/main.0b30cbbb.js.map",
     "787.2df8de29.chunk.js.map": "/portfolio2022/static/js/787.2df8de29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.666d4aae.css",
-    "static/js/main.29ef7395.js"
+    "static/js/main.0b30cbbb.js"
   ]
 }
