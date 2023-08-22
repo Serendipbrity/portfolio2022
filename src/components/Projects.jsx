@@ -41,7 +41,7 @@ const Projects = () => {
       title: "Three",
       description: "Three.js Demo",
       imgUrl: THREE,
-      projUrl: "https://safe-river-91585.herokuapp.com/",
+      projUrl: "https://serendipbrity.github.io/three/",
       gRepo: "https://serendipbrity.github.io/three/",
       id: "proj4-img"
     },
