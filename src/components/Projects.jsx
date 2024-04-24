@@ -7,6 +7,8 @@ import projImg3 from '../assets/img/MindFlip.png';
 import projImg2 from '../assets/img/healing-handsAbout.png';
 import 'animate.css';
 import THREE from '../assets/img/Three.png';
+import giveorg from '../assets/img/giveorg.png';
+import quickattendance from '../assets/img/quickattendance.png';
 import TrackVisibility from 'react-on-screen';
 // import galaxy from '../assets/img/galaxy_space.mov';
 
@@ -44,6 +46,22 @@ const Projects = () => {
       projUrl: "https://serendipbrity.github.io/three/",
       gRepo: "https://serendipbrity.github.io/three/",
       id: "proj4-img"
+    },
+    {
+      title: "Give.org",
+      description: "Charity Website",
+      imgUrl: giveorg,
+      projUrl: "https://give.org/",
+      gRepo: "https://give.org/",
+      id: "proj5-img"
+    },
+    {
+      title: "Quick Attendance",
+      description: "Quickly Take Attandance",
+      imgUrl: quickattendance,
+      projUrl: "https://github.com/Serendipbrity/QuickAttendance",
+      gRepo: "https://github.com/Serendipbrity/QuickAttendance",
+      id: "proj6-img"
     },
   ];
 
