@@ -90,7 +90,7 @@
     border-radius: 4px;
     max-width: 60%;
     max-height: 60%;
-  
+    clip-path: inset(0 8% 0 8%);
   }
   
   .intro {

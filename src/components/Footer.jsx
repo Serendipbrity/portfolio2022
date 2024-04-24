@@ -4,6 +4,7 @@ import downloadIcon from "../assets/img/file-download-import-icon.svg";
 import igIcon from "../assets/img/igIcon.svg";
 import githubIcon from "../assets/img/nav-icon4.svg";
 import seren from "../assets/img/seren.svg";
+import pdf from "../assets/BrittaniCourtResume.pdf";
 
 const Footer = () => {
   return (
@@ -30,7 +31,7 @@ const Footer = () => {
               >
                 <img src={igIcon} />
               </a>
-              <a href="" title="Download Resume PDF">
+              <a href={pdf} title="Download Resume PDF">
                 <img src={downloadIcon} />
               </a>
             </div>

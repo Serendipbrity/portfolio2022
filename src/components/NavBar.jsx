@@ -3,7 +3,7 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 import linkdInIcon from "../assets/img/nav-icon1.svg";
 import githubIcon from "../assets/img/nav-icon4.svg";
 import downloadIcon from "../assets/img/file-download-import-icon.svg";
-import pdf from "../assets/Resume.pdf";
+import pdf from "../assets/BrittaniCourtResume.pdf";
 import sIg from "../assets/img/sIg.svg";
 import igIcon from "../assets/img/igIcon.svg";
 
