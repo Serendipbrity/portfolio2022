@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2022/static/css/main.e9e41888.css",
-    "main.js": "/portfolio2022/static/js/main.89d9c1a0.js",
+    "main.js": "/portfolio2022/static/js/main.604d6e74.js",
     "static/js/787.abed0b11.chunk.js": "/portfolio2022/static/js/787.abed0b11.chunk.js",
     "static/media/nasaCircle.jpg": "/portfolio2022/static/media/nasaCircle.78985a4dc62387bebb82.jpg",
     "static/media/healing-handsAbout.png": "/portfolio2022/static/media/healing-handsAbout.458d12f61ce58ed87b92.png",
@@ -16,7 +16,7 @@
     "static/media/CentraNo2-Bold.ttf": "/portfolio2022/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/portfolio2022/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/portfolio2022/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/BrittaniCourtResume.pdf": "/portfolio2022/static/media/BrittaniCourtResume.ea1d9370344aea4efd3b.pdf",
+    "static/media/BrittaniCourtResume.pdf": "/portfolio2022/static/media/BrittaniCourtResume.f9dd30773c17e48c0c25.pdf",
     "static/media/React.svg.png": "/portfolio2022/static/media/React.svg.1e5639fdfd7c944093d3.png",
     "static/media/CSS3.svg.png": "/portfolio2022/static/media/CSS3.svg.443bc827ad57da012b4b.png",
     "static/media/Sass.svg.png": "/portfolio2022/static/media/Sass.svg.eae2b96dc5f29556b225.png",
@@ -41,11 +41,11 @@
     "static/media/nav-icon1.svg": "/portfolio2022/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/seren.svg": "/portfolio2022/static/media/seren.0de67cca737cdf7038cbbedcbb795767.svg",
     "main.e9e41888.css.map": "/portfolio2022/static/css/main.e9e41888.css.map",
-    "main.89d9c1a0.js.map": "/portfolio2022/static/js/main.89d9c1a0.js.map",
+    "main.604d6e74.js.map": "/portfolio2022/static/js/main.604d6e74.js.map",
     "787.abed0b11.chunk.js.map": "/portfolio2022/static/js/787.abed0b11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9e41888.css",
-    "static/js/main.89d9c1a0.js"
+    "static/js/main.604d6e74.js"
   ]
 }
