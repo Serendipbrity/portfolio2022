@@ -35,7 +35,7 @@ const Projects = () => {
       title: "MindFlip",
       description: "Flash Card Game",
       imgUrl: projImg3,
-      projUrl: "https://mindflip-88d53dabf742.herokuapp.com/",
+      projUrl: "https://mindflip.onrender.com/",
       gRepo: "https://github.com/Serendipbrity/MindFlip",
       id: "proj3-img"
     },
