@@ -116,7 +116,7 @@ const NavBar = () => {
               <a
                 href={pdf}
                 title="Download Resume PDF"
-                download="Download Resume"
+                download="BrittaniCourtResume"
                 className="social-icons"
               >
                 <img src={downloadIcon} alt="Resume"></img>

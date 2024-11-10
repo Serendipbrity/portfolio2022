@@ -32,7 +32,7 @@ const Footer = () => {
                 <img src={igIcon} />
               </a>
               <a href={pdf} title="Download Resume PDF">
-                <img src={downloadIcon} />
+                <img src={downloadIcon} download="BrittaniCourtResume" />
               </a>
             </div>
             <p>Copyright 2023. All rights reserved.</p>
