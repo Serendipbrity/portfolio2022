@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio2022/static/css/main.e9e41888.css",
-    "main.js": "/portfolio2022/static/js/main.604d6e74.js",
-    "static/js/787.abed0b11.chunk.js": "/portfolio2022/static/js/787.abed0b11.chunk.js",
+    "main.css": "/portfolio2022/static/css/main.666d4aae.css",
+    "main.js": "/portfolio2022/static/js/main.9f8847cd.js",
+    "static/js/787.2df8de29.chunk.js": "/portfolio2022/static/js/787.2df8de29.chunk.js",
     "static/media/nasaCircle.jpg": "/portfolio2022/static/media/nasaCircle.78985a4dc62387bebb82.jpg",
     "static/media/healing-handsAbout.png": "/portfolio2022/static/media/healing-handsAbout.458d12f61ce58ed87b92.png",
     "static/media/Gators.png": "/portfolio2022/static/media/Gators.3a4efcebe41f6be7ccf2.png",
-    "static/media/giveorg.png": "/portfolio2022/static/media/giveorg.f46212f1b56f775bcc8b.png",
     "static/media/color-sharp.png": "/portfolio2022/static/media/color-sharp.bea361cfef80fefc2d1e.png",
-    "static/media/Me.jpeg": "/portfolio2022/static/media/Me.3a9202b3f3b14814e993.jpeg",
     "static/media/color-sharp2.png": "/portfolio2022/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/MindFlip.png": "/portfolio2022/static/media/MindFlip.b33355d9f82a3ee36abc.png",
     "static/media/Three.png": "/portfolio2022/static/media/Three.e36a2abbe80d3c2e888b.png",
-    "static/media/quickattendance.png": "/portfolio2022/static/media/quickattendance.b69497b0b33ffbc77aaa.png",
+    "static/media/Me.jpeg": "/portfolio2022/static/media/Me.02153956fe03eafb01f9.jpeg",
     "static/media/CentraNo2-Bold.ttf": "/portfolio2022/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/portfolio2022/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/portfolio2022/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/BrittaniCourtResume.pdf": "/portfolio2022/static/media/BrittaniCourtResume.f9dd30773c17e48c0c25.pdf",
+    "static/media/Resume.pdf": "/portfolio2022/static/media/Resume.20c400c31980bbed9a0b.pdf",
     "static/media/React.svg.png": "/portfolio2022/static/media/React.svg.1e5639fdfd7c944093d3.png",
     "static/media/CSS3.svg.png": "/portfolio2022/static/media/CSS3.svg.443bc827ad57da012b4b.png",
     "static/media/Sass.svg.png": "/portfolio2022/static/media/Sass.svg.eae2b96dc5f29556b225.png",
@@ -40,12 +38,12 @@
     "index.html": "/portfolio2022/index.html",
     "static/media/nav-icon1.svg": "/portfolio2022/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/seren.svg": "/portfolio2022/static/media/seren.0de67cca737cdf7038cbbedcbb795767.svg",
-    "main.e9e41888.css.map": "/portfolio2022/static/css/main.e9e41888.css.map",
-    "main.604d6e74.js.map": "/portfolio2022/static/js/main.604d6e74.js.map",
-    "787.abed0b11.chunk.js.map": "/portfolio2022/static/js/787.abed0b11.chunk.js.map"
+    "main.666d4aae.css.map": "/portfolio2022/static/css/main.666d4aae.css.map",
+    "main.9f8847cd.js.map": "/portfolio2022/static/js/main.9f8847cd.js.map",
+    "787.2df8de29.chunk.js.map": "/portfolio2022/static/js/787.2df8de29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9e41888.css",
-    "static/js/main.604d6e74.js"
+    "static/css/main.666d4aae.css",
+    "static/js/main.9f8847cd.js"
   ]
 }
